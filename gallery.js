@@ -20,6 +20,7 @@ function shuffleGallery()
   document.getElementById("source").innerHTML = "Image courtesy of: " + current.from;
   }
 
-function randomUpTo(max){
+function randomUpTo(max)
+{
   return Math.floor(Math.random() * (max+1));
 }
